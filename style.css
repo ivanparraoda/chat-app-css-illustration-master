@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    position: relative;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    
+
+
+}
+
+.bg, .bg2{
+    background-image: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%)) ;
+    background-repeat: no-repeat;
+    height: 590px;
+    width: 250px;
+    position: absolute;
+    border-radius: 0 0 220px 0;
+    z-index: 1;
+
+}
+
+.bg{
+    top: 0px;
+}
+
+.bg2{
+    opacity: .1;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 220px 0 0 0;
+    
+}
+
+.phone-layout{
+    border: 1px solid blue;
+    width: 417px;
+    height: 685px;
+    border-radius: 40px;
+    margin: 123px auto;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.phone-screen{
+    border: 1px solid blue;
+    border-radius: 30px;
+    position: relative;
+    margin: 20px 20px;
+    background-color: white;
+    height: 643px;
+}
+
+.flex-id{
+    display: flex;
+    background-color: hsl(276, 100%, 81%);
+    height: 100px;
+    overflow: hidden;
+}
+
+.flex-id img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    
+}
+
+.conver{
+    background-color: hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%) ;
+    display: inline-block;
+}
+
+.img-flex img{
+    width: 80px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.description{
+    text-align: center;
+    border: 1px solid purple;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.description h1{
+   color: hsl(271, 36%, 24%);
+   font-size: 4rem;
+   padding-bottom: 20px;
+}
+
+.description p{
+    color: hsl(270, 7%, 64%);
+    font-size: 1.8rem;
+ }
