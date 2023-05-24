@@ -218,14 +218,14 @@ body{
         height: 857px;
         width: 310px;
         right: 0px;
-        bottom: -402px;
+       
         border-radius: 220px 0 0 0;
     }
     .flex-container{
         display: flex;
         width: 900px;
         height: 600px;
-        margin: 95px 250px;
+        margin: -98px 250px;
        
     }
     .phone-layout{
