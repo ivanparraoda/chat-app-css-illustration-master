@@ -30,7 +30,7 @@ body{
 
 
    .home {
-    background-color: #ffffff00;
+    background-color: blue;
     color: white;
     font-size: 1rem;
     border: 1px solid black;
@@ -39,7 +39,6 @@ body{
     position: relative;
     z-index: 10;
     margin: 40px 20px;
-    margin-top: 50px !important;
     text-decoration: none;
 
 }
